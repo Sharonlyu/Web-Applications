@@ -1,0 +1,51 @@
+div {
+  color: black;
+  font-family: monospace, sans-serif;
+  text-align: center;
+}
+
+table {
+  margin: 1px;
+  background: #f1faee;
+  font-size: small;
+  border-radius: 5%;
+}
+
+#monthYearCell {
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 25px;
+}
+
+#preArrow,
+#nextArrow {
+  cursor: pointer;
+}
+
+#preArrow:hover,
+#nextArrow:hover {
+  background: #d8e2dc;
+}
+
+#daysRow {
+  font-size: 20px;
+}
+
+.otherMonth {
+  opacity: 0.5;
+}
+
+.curMonth:hover {
+  background: #d8e2dc !important;
+  cursor: pointer;
+}
+
+td {
+  font-size: 20px;
+  border-radius: 100%;
+  line-height: 35px;
+}
+
+#fixedDate {
+  background: #ccd5ae;
+}

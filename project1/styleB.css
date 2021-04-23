@@ -1,0 +1,28 @@
+div {
+  align-items: flex-start;
+  white-space: nowrap;
+}
+
+p {
+  display: inline-block;
+  border-left: #d0d0ff 10px dotted;
+  margin-right: 10px;
+  width: 100px;
+  height: 150px;
+  font: Tahoma;
+  font-size: 40px;
+  background-color: #eeeff2;
+  padding-left: 10px;
+}
+
+p:hover {
+  color: goldenrod;
+  background-color: yellow;
+  cursor: pointer;
+}
+
+.classF {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}

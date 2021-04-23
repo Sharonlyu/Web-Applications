@@ -1,0 +1,47 @@
+.box {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+p {
+  border-top: #687291 1px solid;
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  font: Tahoma;
+  font-size: 40px;
+  background-color: whitesmoke;
+  background-image: linear-gradient(rgb(232, 231, 245), rgb(220, 142, 207));
+  transition: background-color 1s ease-in-out;
+}
+
+p:hover {
+  background-color: aqua;
+  cursor: pointer;
+}
+.classB,
+.classD {
+  animation: pulse 5s infinite;
+  text-shadow: 5px 5px #687291;
+}
+
+@keyframes pulse {
+  0% {
+    background-color: #8fa6eb;
+  }
+  100% {
+    background-color: rgb(13, 32, 196);
+  }
+}
+.classF {
+  border: black 4px solid;
+  background: #687291;
+  line-height: 100%;
+}
+
+body {
+  font-family: Tahoma, Arial, sans-serif;
+  margin: 10px;
+}
